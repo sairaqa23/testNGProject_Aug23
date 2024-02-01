@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T08:39:37 CST" name="Default suite" finished-at="2024-01-31T08:40:03 CST" duration-ms="26154">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T08:39:37 CST" name="Default test" finished-at="2024-01-31T08:40:03 CST" duration-ms="26154">
+      <class name="variousConcepts.testDataProvider">
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.testDataProvider@1e6a3214]" started-at="2024-01-31T08:39:37 CST" name="init" finished-at="2024-01-31T08:39:43 CST" duration-ms="5753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:variousConcepts.testDataProvider@1e6a3214]" started-at="2024-01-31T08:39:43 CST" name="testLogin" data-provider="loginData" finished-at="2024-01-31T08:39:52 CST" duration-ms="9316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@codefios.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.testDataProvider@1e6a3214]" started-at="2024-01-31T08:39:52 CST" name="init" finished-at="2024-01-31T08:39:57 CST" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:variousConcepts.testDataProvider@1e6a3214]" started-at="2024-01-31T08:39:57 CST" name="testLogin" data-provider="loginData" finished-at="2024-01-31T08:40:03 CST" duration-ms="6278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo5@codefios.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- variousConcepts.testDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
